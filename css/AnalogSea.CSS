@@ -1,0 +1,91 @@
+ * {
+ 	box-sizing: border-box;
+ }
+
+ .logo {
+ 	height: 35px;
+ 	display: block;
+ 	margin-top: 35px;
+ 	margin-bottom: 35px; 
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ p, p > a {
+ 	text-align: center;
+ 	color: white;
+ 	font-weight: bold;
+ }
+
+ a {
+ 	text-align: center;
+ 	color: lightgray;
+ }
+
+ label {
+ 	display: block;
+ 	margin-left: 30px;
+ 	margin-top: 8px ;
+ 	margin-bottom: 20px;
+ }
+ 
+ input {
+ 	width: 320px;
+ 	height: 55px;
+ 	margin-top: 8px ;
+ 	margin-bottom: 20px;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	border: 2px lightgray solid;
+ 	display: block;
+ 	border-radius: 3px;
+ 	font-size: 16px;
+ 	color : gray;
+ }
+
+button {
+	width: 320px;
+ 	height: 55px;
+ 	display: block;
+ 	background-color: #33cc75;
+ 	border-radius: 3px;
+ 	color : white;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	border: none;
+}
+
+button, input {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body{
+	background-color: deepskyblue;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset > a {
+	font-size: smaller;
+	display: block;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+ .container {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: white;
+ 	width: 400px;
+ 	border-radius: 3px;
+ }
